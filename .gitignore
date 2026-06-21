@@ -1,0 +1,49 @@
+# --- Python e Ambientes Virtuais ---
+# Ignora a pasta do ambiente virtual (onde ficam instaladas as bibliotecas)
+.venv/
+venv/
+env/
+ENV/
+pyvenv.cfg
+
+# Ignora os arquivos compilados do Python (caches que o Python cria sozinho)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Configurações Locais e Senhas (CRUCIAL PARA SEGURANÇA) ---
+# Ignora o arquivo com suas senhas reais e chaves de API
+.env
+.env.local
+
+# --- Ferramentas de Desenvolvimento e IDEs ---
+# VS Code
+.vscode/
+.history/
+
+# PyCharm / JetBrains
+.idea/
+
+# --- Arquivos de Log e Testes ---
+# Ignora arquivos de log locais que seu sistema vai gerar
+*.log
+logs/
+
+# Ignora caches gerados pelo Pytest (ferramenta de testes)
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Arquivos de Dados Locais ---
+# Ignora arquivos de dados que você baixar para testar na sua máquina
+.ipynb_checkpoints/
+*.csv
+*.xlsx
+*.parquet
+*.sqlite3
+
+# --- Sistema Operacional ---
+# Arquivos ocultos do Windows e Mac
+Thumbs.db
+.DS_Store

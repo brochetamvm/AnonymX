@@ -1,0 +1,14 @@
+# Manipulação de Dados e GDPR
+pandas==2.2.2
+
+# Validação e Configurações
+pydantic==2.7.1
+pydantic-settings==2.2.1
+
+# Requisições Assíncronas (Buscando dados rápidos)
+httpx==0.27.0
+asyncio
+
+# Banco de dados
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.30
