@@ -75,3 +75,4 @@ if __name__ == "__main__":
     print("\n--- 📊 MÉTRICAS AGREGADAS (Prontas para o PowerBI/Dashboards) ---")
     print(df_metrics)
     print("\n")
+    
